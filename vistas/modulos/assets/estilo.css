@@ -1,0 +1,62 @@
+
+/*-----------------------MENU-----------------------*/
+.menu {
+    color: white;
+    height: 100vh;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menu a:focus{
+    color: white;
+}
+
+.menu a:hover {
+    background-color: #3D3743;
+    color: white;
+}
+.menu li {
+    width: 100%;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+.menu h1{
+    padding-top: 10px;
+    text-align: center;
+}
+
+* {
+    /* overflow: hidden; */
+    padding: 0;
+}
+
+
+/*--------------- END MENU -----------------------------*/
+
+
+/*----------------- PAGINACION ------------------------------*/
+.tablas {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    overflow: auto;
+}
+
+.tablas thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.tablas th,
+.tablas td {
+    padding: 12px 15px;
+}
